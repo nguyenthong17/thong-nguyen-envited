@@ -1,0 +1,41 @@
+.root {
+  background-color: var(--background-white);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 240px;
+  width: 90%;
+}
+
+.detail {
+  margin-left: 200px;
+}
+
+.title h1 {
+  color: var(--purple1000);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.title p {
+  color: var(--gray500);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.imageContainer {
+  margin-right: 50px;
+}
+
+.imageContainer img {
+  width: 500px;
+  height: 500px;
+}

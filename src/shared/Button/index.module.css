@@ -1,0 +1,16 @@
+.button {
+  background-image: linear-gradient(
+    90deg,
+    var(--purple600) 3.25%,
+    var(--purple400) 100%
+  );
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+  gap: 10px;
+  color: var(--white);
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
